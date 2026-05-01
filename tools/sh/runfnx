@@ -1,2 +1,2 @@
 
-python $FOENIXMGR/FoenixMgr/fnxmgr.py --upload $1
+$FOENIXMGR/fm.sh --upload $1

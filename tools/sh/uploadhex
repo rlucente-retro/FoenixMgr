@@ -2,7 +2,7 @@
 
 if [ -z $2 ]
 then
-    python $FOENIXMGR/FoenixMgr/fnxmgr.py --upload $1
+    $FOENIXMGR/fm.sh --upload $1
 else
-    python $FOENIXMGR/FoenixMgr/fnxmgr.py --upload $1 --address $2
+    $FOENIXMGR/fm.sh --upload $1 --address $2
 fi
